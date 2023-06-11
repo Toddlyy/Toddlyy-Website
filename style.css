@@ -1,59 +1,70 @@
+@media only screen and (min-width: 0px) {
 body {
   background:  #F5781D;
   margin: 0;
-  padding: 0;
+  /* padding: 0;
   font-family: Arial, sans-serif;
+   */
   overflow-x: hidden;
+  width: 100%
+  
 }
 
-.container {
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
-}
+} */
 
-.container-caption {
+/* .container-caption {
   max-width: 500px;
   margin: 0 auto;
   padding: 10px;
-}
+} */
 
 
-.startup-name {
-  font-size: 24px; /* Adjust size as needed */
-}
+/* .startup-name { */
+  /* font-size: 24px;  */
+  /* Adjust size as needed */
+/* } */
 
-.fixed-header, .fixed-footer{
+/* .fixed-header,  */
+.fixed-footer{
   width: 100%;
           
   background: #FED18D;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   color: #fff;
-}
-.header-color {
-  background: #FED18D;
-}
-.fixed-header{
-  top: 0;
-}
-.fixed-footer{
-  bottom: 0;
-}   
+  padding-bottom: 15px;
 
-.a { text-indent: -30em; }
+}
+/* .header-color {
+  background: #FED18D;
+} */
+
+/* .fixed-header{
+  top: 0;
+} */
+
+/* .fixed-footer{
+  bottom: 0;
+}    */
+
+/* .a { text-indent: -30em; } */
 
 h1 {
   color: #FFFFFF;
-  text-align: center;
-  margin-top: 200px;
+   text-align: center;
+  /* margin-top: 200px;  */
 }
-p {
+/* p {
   color: #FFFFFF;
   text-align: center;
   margin-top: 20px;
   font-size: 18px;
-}
-.cta-button {
+} */
+
+/* .cta-button {
   display: block;
   margin: 30px auto;
   padding: 15px 30px;
@@ -67,14 +78,15 @@ p {
 .cta-button:hover {
   background-color: #F5781D;
   color: #FFFFFF;
-}
+} */
+
 .center {
 margin: auto;
 width: 50%;
 /* border: 3px solid green; */
 padding: 10px;
 }
-
+/* 
 bodyTestimonial {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -118,9 +130,9 @@ bodyTestimonial {
   font-size: 16px;
   color: #777777;
   margin-top: 10px;
-}
+} */
 
-.playstore-button {
+/* .playstore-button {
   display: inline-flex;
   align-items: center;
   padding: 10px 20px;
@@ -141,7 +153,7 @@ bodyTestimonial {
 }
 .playstore-button:hover {
   background-color: #FED18D;
-}
+} */
 
 /* style.css */
 
@@ -173,13 +185,15 @@ header {
   margin-right: 10px;
 }
 
-.startup-name {
-  font-size: 24px; /* Adjust size as needed */
-}
+/* .startup-name { */
+  /* font-size: 24px;  */
+  /* Adjust size as needed */
+/* } */
 
 
 .carousel-item img {
     height: 600px;
     object-fit: cover;
-    width: 100%;
+    /* width: 50%; */
   }
+}

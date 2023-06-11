@@ -16,176 +16,183 @@
     /* Desktop styles */
 
     /* Header */
+    @media only screen and (min-width: 0px) {
+      .carousel:hover {
+        transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+      }
 
-    .carousel:hover {
-      transform: scale(1.1);
-      transition: transform 0.5s ease-in-out;
-    }
+      .carousel-item img {
+        border-radius: 100px;
+        width: 100%;
+        /* height: auto; */
+      }
 
-    .carousel-item img {
-      border-radius: 100px;
-      width: 100%;
-      /* height: auto; */
-    }
+      .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
 
-    .carousel-caption {
-      background-color: rgba(0, 0, 0, 0.5);
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    }
+      .carousel-caption h3,
+      .carousel-caption p {
+        color: #fff;
+      }
 
-    .carousel-caption h3,
-    .carousel-caption p {
-      color: #fff;
-    }
+      .waitlist-section {
+        background-color: #f5f5f5;
+        padding: 50px;
+        text-align: center;
+      }
 
-    .waitlist-section {
-      background-color: #f5f5f5;
-      padding: 50px;
-      text-align: center;
-    }
+      .waitlist-section h2 {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+        color: #F5781D;
+      }
 
-    .waitlist-section h2 {
-      font-size: 2.5rem;
-      margin-bottom: 40px;
-      color: #F5781D;
-    }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 0px;
+      }
 
-    .button-container {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
+      .waitlist-button {
+        display: inline-block;
+        padding: 20px 40px;
+        border: none;
+        border-radius: 50px;
+        background-color: #F5781D;
+        color: #fff;
+        font-size: 1.2rem;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
 
-    .waitlist-button {
-      display: inline-block;
-      padding: 20px 40px;
-      border: none;
-      border-radius: 50px;
-      background-color: #F5781D;
-      color: #fff;
-      font-size: 1.2rem;
-      text-align: center;
-      text-decoration: none;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
+      .waitlist-button:hover {
+        background-color: rgb(44, 181, 44);
+        color: white;
+      }
 
-    .waitlist-button:hover {
-      background-color: rgb(44, 181, 44);
-      color: white;
-    }
+      .waitlist-button i {
+        margin-right: 10px;
 
-    .waitlist-button i {
-      margin-right: 10px;
+      }
 
-    }
+      .fa {
 
-    .fa {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 50%;
+        margin: 5px;
+      }
 
-      width: 50px;
-      height: 50px;
-      line-height: 50px;
-      text-align: center;
-      border-radius: 50%;
-      margin: 5px;
-    }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
 
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
 
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-    }
+      .fa-pinterest {
+        background: #cb2027;
+        color: white;
+      }
 
-    .fa-pinterest {
-      background: #cb2027;
-      color: white;
-    }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
 
-    .fa-linkedin {
-      background: #007bb5;
-      color: white;
-    }
+      .fa-instagram {
+        background: #d62976;
+        color: white;
+      }
 
-    .fa-instagram {
-      background: #d62976;
-      color: white;
-    }
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
 
-    .fa-youtube {
-      background: #bb0000;
-      color: white;
-    }
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
 
-    .fa-google {
-      background: #dd4b39;
-      color: white;
-    }
+      .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
 
-    .fa-snapchat-ghost {
-      background: #fffc00;
-      color: white;
-      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    }
+      .fa-skype {
+        background: #00aff0;
+        color: white;
+      }
 
-    .fa-skype {
-      background: #00aff0;
-      color: white;
-    }
-
-    .fa:hover {
-      opacity: 0.9;
-    }
+      .fa:hover {
+        opacity: 0.9;
+      }
 
 
-    .container {
+      /* .container {
       max-width: 1200px;
       margin: 0 auto;
       padding: 0 20px;
-    }
+    } */
 
-    .logo-container {
-      display: flex;
-      align-items: center;
-    }
+      .logo-container {
+        display: flex;
+        align-items: center;
+      }
 
-    .logo {
-      width: 80px;
-      height: 80px;
-    }
-
-    .startup-name {
-      font-size: 32px;
-      margin-left: 10px;
-    }
+      .logo {
+        width: 80px;
+        height: 80px;
+      }
 
 
-    .container h1 {
-      font-size: 3rem;
-      font-weight: bold;
-      margin-bottom: 1rem;
-    }
 
-    .container p {
-      font-size: 2rem;
-      line-height: 1.5;
-    }
+      .container h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
 
-    /* Carousel */
-    #myCarousel {
-      margin: 0 auto;
-      width: 50%;
+      .startup-name {
+        font-size: 32px;
+        margin-left: 10px;
+      }
+
+
+      .container p {
+        font-size: 2rem;
+        line-height: 1.5;
+      }
+
+      /* Carousel */
+      #myCarousel {
+        margin: 0 auto;
+        width: 50%;
+      }
     }
 
     /* Mobile styles */
     @media only screen and (max-width: 768px) {
+      body {
+        overflow-x: hidden;
+      }
 
       /* Header */
       .logo-container {
@@ -196,9 +203,7 @@
         max-width: 40%;
       }
 
-      .startup-name {
-        font-size: 1.5rem;
-      }
+
 
       /* Main content */
       .container {
@@ -206,48 +211,52 @@
       }
 
       .container h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-bottom: 0.5rem;
       }
 
       .container p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
 
       /* Carousel */
       #myCarousel {
-        width: 100%;
-      }
-    }
-
-    @media only screen and (max-width: 576px) {
-
-      /* Header */
-      .logo-container {
-        width: 100%;
+        width: 85%;
       }
 
-      .logo {
-        max-width: 30%;
+      .carousel-item img {
+        height: 450px;
       }
 
-      .startup-name {
+      .waitlist-section h2 {
+        font-size: 1.2rem;
+
+      }
+
+      .logo-container h1 {
+        font-size: 2rem;
+      }
+
+      .fixed-footer h2 {
         font-size: 1.2rem;
       }
 
-      /* Main content */
-      .container {
-        margin-top: 2rem;
+      .fixed-footer h5 {
+        font-size: 0.8rem;
       }
 
-      .container h1 {
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-      }
-
-      .container p {
+      .button-container h3 {
         font-size: 1.2rem;
       }
+
+      .carousel-item h3 {
+        font-size: 1.2rem;
+      }
+
+      .carousel-item h5 {
+        font-size: 0.8rem;
+      }
+
     }
   </style>
 
@@ -393,7 +402,7 @@
 
   <section class="waitlist-section">
     <h2 style="font-family: 'BioRhyme';">Book your kid's next fun and learning experience with Toddlyy</h2>
-    <h2 style="color:rgb(44, 181, 44); font-family: 'Coiny';">We are launching soon!</h2>
+    <h2 style="color:rgb(44, 181, 44); font-family: 'Coiny';">We are launching our app soon!</h2>
     <br>
     <div class="button-container">
       <!--  <a style="font-family: 'Biryani';" href="#" class="waitlist-button"><i class="fa fa-apple fa-2x"></i>
@@ -401,7 +410,7 @@
       </a> -->
       <a style="font-family: 'Biryani';" href="https://cutt.ly/aweFybKR" class="waitlist-button"><i
           class="fa fa-android fa-2x"></i><i class="fa fa-apple fa-2x"></i>
-        <h4>Join the Waitlist!</h4>
+        <h3>Join the Waitlist!</h3>
       </a>
     </div>
   </section>
