@@ -1,70 +1,71 @@
 @media only screen and (min-width: 0px) {
-body {
-  background:  #F5781D;
-  margin: 0;
-  /* padding: 0;
+  body {
+    background: #F5781D;
+    margin: 0;
+    /* padding: 0;
   font-family: Arial, sans-serif;
    */
-  overflow-x: hidden;
-  width: 100%
-  
-}
+    overflow-x: hidden;
+    width: 100%
+  }
 
-/* .container {
+  /* .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
 } */
 
-/* .container-caption {
+  /* .container-caption {
   max-width: 500px;
   margin: 0 auto;
   padding: 10px;
 } */
 
 
-/* .startup-name { */
+  /* .startup-name { */
   /* font-size: 24px;  */
   /* Adjust size as needed */
-/* } */
+  /* } */
 
-/* .fixed-header,  */
-.fixed-footer{
-  width: 100%;
-          
-  background: #FED18D;
-  /* padding: 10px 0; */
-  color: #fff;
-  padding-bottom: 15px;
+  /* .fixed-header,  */
+  .fixed-footer {
+    width: 100%;
 
-}
-/* .header-color {
+    background: #FED18D;
+    /* padding: 10px 0; */
+    color: #fff;
+    padding-bottom: 15px;
+
+  }
+
+  /* .header-color {
   background: #FED18D;
 } */
 
-/* .fixed-header{
+  /* .fixed-header{
   top: 0;
 } */
 
-/* .fixed-footer{
+  /* .fixed-footer{
   bottom: 0;
 }    */
 
-/* .a { text-indent: -30em; } */
+  /* .a { text-indent: -30em; } */
 
-h1 {
-  color: #FFFFFF;
-   text-align: center;
-  /* margin-top: 200px;  */
-}
-/* p {
+  h1 {
+    color: #FFFFFF;
+    text-align: center;
+    /* margin-top: 200px;  */
+  }
+
+  /* p {
   color: #FFFFFF;
   text-align: center;
   margin-top: 20px;
   font-size: 18px;
 } */
 
-/* .cta-button {
+  /* .cta-button {
   display: block;
   margin: 30px auto;
   padding: 15px 30px;
@@ -80,13 +81,14 @@ h1 {
   color: #FFFFFF;
 } */
 
-.center {
-margin: auto;
-width: 50%;
-/* border: 3px solid green; */
-padding: 10px;
-}
-/* 
+  .center {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+  }
+
+  /* 
 bodyTestimonial {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -132,7 +134,7 @@ bodyTestimonial {
   margin-top: 10px;
 } */
 
-/* .playstore-button {
+  /* .playstore-button {
   display: inline-flex;
   align-items: center;
   padding: 10px 20px;
@@ -155,43 +157,50 @@ bodyTestimonial {
   background-color: #FED18D;
 } */
 
-/* style.css */
+  /* style.css */
 
-/* Reset default margin and padding */
-body, h1, h2, h3, p {
-  margin: 0;
-  padding: 0;
-}
+  /* Reset default margin and padding */
+  body,
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+    padding: 0;
+  }
 
-/* Define font styles */
-body {
-  font-family: Arial, sans-serif;
-}
+  /* Define font styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
 
-/* Header styles */
-header {
-  background-color: #FED18D; /* Replace with your desired background color */
-  padding: 20px;
-}
+  /* Header styles */
+  header {
+    background-color: #FED18D;
+    /* Replace with your desired background color */
+    padding: 20px;
+  }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-}
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
 
-.logo {
-  width: 40px; /* Adjust size as needed */
-  height: 40px; /* Adjust size as needed */
-  margin-right: 10px;
-}
+  .logo {
+    width: 40px;
+    /* Adjust size as needed */
+    height: 40px;
+    /* Adjust size as needed */
+    margin-right: 10px;
+  }
 
-/* .startup-name { */
+  /* .startup-name { */
   /* font-size: 24px;  */
   /* Adjust size as needed */
-/* } */
+  /* } */
 
 
-.carousel-item img {
+  .carousel-item img {
     height: 600px;
     object-fit: cover;
     /* width: 50%; */
